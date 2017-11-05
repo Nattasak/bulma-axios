@@ -13,7 +13,7 @@ class Card extends Component {
     axios.get('https://jsonplaceholder.typicode.com/posts')
     .then(res => {
       //console.log(res);
-      const posts = res.data.map(post => post);
+      const posts = res.data.slice(0, 12).map(post => post);
       //console.log(posts);
       this.setState({ posts });
     })
@@ -26,7 +26,7 @@ class Card extends Component {
     return (
       <div className="Card">
         <div className="columns is-multiline">
-          { this.state.posts.slice(0, 12).map(post =>
+          { this.state.posts.map(post =>
             <div className="column is-one-third" key={post.id}>
               <div className="card">
                 <div className="card-image">
