@@ -10,7 +10,7 @@ const Header = () => (
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item" href="../"><img src={logo} alt="Logo" /></a>
+            <a className="navbar-item" href="/bulma-axios"><img src={logo} alt="Logo" /></a>
             <span className="navbar-burger burger" data-target="navbarMenu">
               <span></span>
               <span></span>
@@ -19,7 +19,7 @@ const Header = () => (
           </div>
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-end">
-              <NavLink className="navbar-item" activeClassName="is-active" exact to='/'>Home</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" exact to="/bulma-axios">Home</NavLink>
               <NavLink className="navbar-item" activeClassName="is-active" to="/posts">Posts</NavLink>
               {/*<NavLink className="navbar-item" activeClassName="is-active" to="/roster">Roster</NavLink>
               <NavLink className="navbar-item" activeClassName="is-active" to="/schedule">Schedule</NavLink>*/}
