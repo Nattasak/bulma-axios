@@ -35,9 +35,9 @@ const Login = () => (
             </form>
           </div>
           <p className="has-text-light">
-            <a href="../">Sign Up</a> &nbsp;·&nbsp;
-            <a href="../">Forgot Password</a> &nbsp;·&nbsp;
-            <a href="../">Need Help?</a>
+            <a href="https://nattasak.github.io/bulma-axios/">Sign Up</a> &nbsp;·&nbsp;
+            <a href="https://nattasak.github.io/bulma-axios/">Forgot Password</a> &nbsp;·&nbsp;
+            <a href="https://nattasak.github.io/bulma-axios/">Need Help?</a>
           </p>
         </div>
       </div>

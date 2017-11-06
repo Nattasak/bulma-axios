@@ -16,7 +16,7 @@ const Main = () => (
   <Auxx>
       <div className="hero-body">
         <Switch>
-          <Route exact path='/' component={Home}/>
+          <Route exact path='/bulma-axios' component={Home}/>
           <Route path='/posts' component={Posts}/>
           <Route path='/postdetail' component={PostDetail}/>
           <Route path='/roster' component={Roster}/>
