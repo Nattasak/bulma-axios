@@ -1,0 +1,21 @@
+.TodoApp form {
+  margin: 0 0 60px 0;
+}
+.TodoApp span {
+  margin-right: 15px;
+}
+.TodoApp li {
+  margin-bottom: 30px;
+}
+.TodoApp li .txt {
+  margin-right: 27px;
+}
+.TodoApp li .button {
+  margin-top: -5px;
+}
+.TodoApp .field label {
+  font-size: 2rem;
+}
+.TodoApp .field .control {
+  margin-bottom: 12px;
+}
