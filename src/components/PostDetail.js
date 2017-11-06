@@ -7,7 +7,7 @@ const PostDetail = () => (
       <div className="content">
         <div className="columns is-mobile">
           <div className="column is-4 is-offset-4">
-            <figure className="image is-square">
+            <figure className="image is-4by3">
               <img src="https://loremflickr.com/450/350/building?random=1" alt="" />
             </figure>
           </div>
