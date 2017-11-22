@@ -17,14 +17,14 @@ const Main = () => (
       <div className="hero-body">
         <Switch>
           <Route exact path='/bulma-axios' component={Home}/>
-          <Route path='/posts' component={Posts}/>
-          <Route path='/postdetail' component={PostDetail}/>
-          <Route path='/roster' component={Roster}/>
-          <Route path='/schedule' component={Schedule}/>
-          <Route path='/todo' component={Todo}/>
-          <Route path='/about' component={About}/>
-          <Route path='/contact' component={Contact}/>
-          <Route path='/login' component={Login}/>
+          <Route path='/bulma-axios/posts' component={Posts}/>
+          <Route path='/bulma-axios/postdetail' component={PostDetail}/>
+          <Route path='/bulma-axios/roster' component={Roster}/>
+          <Route path='/bulma-axios/schedule' component={Schedule}/>
+          <Route path='/bulma-axios/todo' component={Todo}/>
+          <Route path='/bulma-axios/about' component={About}/>
+          <Route path='/bulma-axios/contact' component={Contact}/>
+          <Route path='/bulma-axios/login' component={Login}/>
         </Switch>
       </div>
   </Auxx>

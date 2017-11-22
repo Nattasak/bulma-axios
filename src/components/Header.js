@@ -20,13 +20,13 @@ const Header = () => (
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-end">
               <NavLink className="navbar-item" activeClassName="is-active" exact to="/bulma-axios">Home</NavLink>
-              <NavLink className="navbar-item" activeClassName="is-active" to="/posts">Posts</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" to="/bulma-axios/posts">Posts</NavLink>
               {/*<NavLink className="navbar-item" activeClassName="is-active" to="/roster">Roster</NavLink>
               <NavLink className="navbar-item" activeClassName="is-active" to="/schedule">Schedule</NavLink>*/}
-              <NavLink className="navbar-item" activeClassName="is-active" to="/todo">Todo</NavLink>
-              <NavLink className="navbar-item" activeClassName="is-active" to="/about">About</NavLink>
-              <NavLink className="navbar-item" activeClassName="is-active" to="/contact">Contact</NavLink>
-              <NavLink className="navbar-item" activeClassName="is-active" to="/login">Login</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" to="/bulma-axios/todo">Todo</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" to="/bulma-axios/about">About</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" to="/bulma-axios/contact">Contact</NavLink>
+              <NavLink className="navbar-item" activeClassName="is-active" to="/bulma-axios/login">Login</NavLink>
               <span className="navbar-item">
                 <a className="button is-white is-outlined is-small" href="https://github.com/Nattasak/bulma-axios">
                 <span className="icon">  <i className="fa fa-github"></i></span>
